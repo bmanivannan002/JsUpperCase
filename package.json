@@ -1,0 +1,26 @@
+{
+  "name": "jsuppercase",
+  "version": "1.0.0",
+  "description": "Convert the input into uppercase",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "uppercase"
+  ],
+  "author": "Manivannan",
+  "license": "MIT",
+  "dependencies": {
+    "git": "^0.1.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmanivannan002/Uppercase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmanivannan002/Uppercase/issues"
+  },
+  "homepage": "https://github.com/bmanivannan002/Uppercase#readme"
+}
