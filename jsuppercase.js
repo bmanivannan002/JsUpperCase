@@ -1,4 +1,4 @@
-function JsUpperCase()
+function jsUpperCase()
 {
     let result =[];
     if(arguments.length == 0) 
@@ -26,3 +26,5 @@ function JsUpperCase()
     console.log(result);
     return result;
 }
+
+module.exports = jsUpperCase;
