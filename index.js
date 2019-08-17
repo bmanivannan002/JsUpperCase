@@ -1,6 +1,5 @@
-module.exports = function JsUpperCase()
+function JsUpperCase()
 {
-    console.log ('Operation initiated');
     let result =[];
     if(arguments.length == 0) 
     {
@@ -14,10 +13,16 @@ module.exports = function JsUpperCase()
     {
         let arg = Array.prototype.slice.call(arguments);
         arg.forEach(element => {
-            result.push(element.toLocaleUpperCase());
+            if(typeof element =="string")
+            {
+                result.push(element.toLocaleUpperCase());
+            }
+            else
+            {
+                result.push(element);  
+            }
         });
-        
     }
+    console.log(result);
     return result;
 }
-console.log('Conversion completed successfully');
