@@ -1,8 +1,8 @@
 {
   "name": "jsuppercase",
-  "version": "1.1.1",
+  "version": "1.1.4",
   "description": "Convert the input into uppercase",
-  "main": "index.js",
+  "main": "jsuppercase.js",
   "scripts": {
     "test": "npm test"
   },
