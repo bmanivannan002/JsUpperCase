@@ -1,5 +1,6 @@
 function JsUpperCase()
 {
+    console.log ('Operation initiated');
     let result =[];
     if(arguments.length == 0) 
     {
