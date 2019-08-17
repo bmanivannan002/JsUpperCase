@@ -1,4 +1,4 @@
-function JsUpperCase()
+module.exports = function JsUpperCase()
 {
     console.log ('Operation initiated');
     let result =[];
