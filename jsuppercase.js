@@ -22,8 +22,10 @@ var JSUpperCase = {
                 }
             });
         }
+        consoloe.log('End');
         console.log(result);
         return result;
+        
     }
 }
 module.exports = JSUpperCase;
